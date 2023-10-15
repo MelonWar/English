@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Intros.unity
     guid: 252ef06ee6ef5454aafc0faa1da8175c
   - enabled: 1
+    path: Assets/Scenes/Level1Clone.unity
+    guid: 6fbe9a982ec55f14eb3e76e65248f6bf
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
