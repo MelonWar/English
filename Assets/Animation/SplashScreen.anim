@@ -151,14 +151,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 4.5
-    functionName: ChangeScene()
-    data: 
-    objectReferenceParameter: {fileID: 11500000, guid: 14190e6abdc023048bf2be97cce0e90e, type: 3}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 4.5
-    functionName: ChangeScene()
+    functionName: ChangeScene
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: 14190e6abdc023048bf2be97cce0e90e, type: 3}
     floatParameter: 0
