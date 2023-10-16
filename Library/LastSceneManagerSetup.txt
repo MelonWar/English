@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Level1Clone.unity
-=======
-- path: Assets/Scenes/Intros.unity
->>>>>>> main
+- path: Assets/Scenes/Splash Screen.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
