@@ -678,6 +678,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6289989556251810446, guid: 440ae47b562589046a9d887ca673ad22, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 886674328}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 440ae47b562589046a9d887ca673ad22, type: 3}
 --- !u!1 &456518760
@@ -1219,6 +1223,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6289989556251810446, guid: 440ae47b562589046a9d887ca673ad22, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 886674328}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 440ae47b562589046a9d887ca673ad22, type: 3}
 --- !u!1 &764606975
@@ -2613,6 +2621,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6289989556251810446, guid: 440ae47b562589046a9d887ca673ad22, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 886674328}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 440ae47b562589046a9d887ca673ad22, type: 3}
 --- !u!1 &2131387896
@@ -2791,5 +2803,9 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1254744796}
+    - target: {fileID: 6289989556251810446, guid: 440ae47b562589046a9d887ca673ad22, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 886674328}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 440ae47b562589046a9d887ca673ad22, type: 3}
