@@ -49,6 +49,7 @@ public class Scene1Text : MonoBehaviour
 
     public void ShowText(int index)
     {
+        StopAllCoroutines();
         canvas.enabled = true;
         text.text = "";
         coroutine = WriteText(index);
