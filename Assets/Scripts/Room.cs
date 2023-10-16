@@ -18,7 +18,7 @@ public class Room : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K) && door != null && isInRoom)
+        if (Input.GetKeyDown(KeyCode.O) && door != null && isInRoom)
             door.Open();
     }
 
