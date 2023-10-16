@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638330145040523046
-    m_Hash: 268936354
+      ticks: 638330150998025187
+    m_Hash: 3260879627
   m_LockFileStatus:
     m_FilePath: C:/Users/sadqu_6zpsn8q/Documents/GitHub/English/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638330145057004415
-    m_Hash: 1586815733
+      ticks: 638330151003329762
+    m_Hash: 1403249800
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -995,6 +995,7 @@ m_PackageAssets:
         - 4.9.2
         - 4.9.3
         - 4.9.4
+        - 4.10.0
         compatible:
         - 0.0.3
         - 0.0.4
@@ -1056,6 +1057,7 @@ m_PackageAssets:
         - 4.9.2
         - 4.9.3
         - 4.9.4
+        - 4.10.0
         verified: 3.2.3
       dependencies:
       - name: com.unity.ugui
