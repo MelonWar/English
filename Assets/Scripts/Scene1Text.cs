@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -39,7 +40,7 @@ public class Scene1Text : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             canvas.enabled = false;
             StopAllCoroutines();
@@ -60,6 +61,7 @@ public class Scene1Text : MonoBehaviour
         {
             text.text += c;
             yield return new WaitForSeconds(0.01f);
+            
         }
 
 
