@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Audio;
 
 public class Character : MonoBehaviour
 {
@@ -9,11 +10,13 @@ public class Character : MonoBehaviour
     [SerializeField] float xairSpeed = 5.5f;
     [SerializeField] float jump = 400;
     [SerializeField] Transform groundCheck;
+    [SerializeField] AudioClip move;
     [SerializeField] LayerMask groundLayerMask;
 
     Rigidbody2D rb;
     BoxCollider2D coll;
     Animator animator;
+    AudioSource source;
 
     Vector3 velocity = Vector3.zero;
 
@@ -28,6 +31,7 @@ public class Character : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
+        source = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -35,6 +39,12 @@ public class Character : MonoBehaviour
         CheckGround();
         inputx = Input.GetAxisRaw("Horizontal");
         animator.SetFloat("Speed", Mathf.Abs(inputx));
+
+        if(Mathf.Abs(rb.velocity.x) > 0 && grounded)
+        {
+            //source.clip = move;
+            //source.Play();
+        }
 
         if (inputx > 0 && !facingRight)
             Flip();
