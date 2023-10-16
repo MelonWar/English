@@ -8,17 +8,23 @@ public class Door : MonoBehaviour
     [SerializeField] Transform target;
     float speed = 3;
 
-    bool open = false;
+    public bool opened { get; private set; } = false;
 
     private void Update()
     {
         float distance = Vector2.Distance(transform.position, target.position);
-        if (open && distance > 0.001f)
-            transform.position = Vector2.MoveTowards(transform.position, new Vector2(target.position.x, target.position.y), speed * Time.deltaTime);
+        if (opened && distance > 0.001f)
+            transform.position = Vector3.MoveTowards(transform.position, new Vector3(target.position.x, target.position.y, transform.position.z), speed * Time.deltaTime);
     }
 
     public void Open()
     {
-        open = true;
+        if(opened == false)
+        {
+            opened = true;
+
+            // play opening sound
+            GetComponent<AudioSource>().Play();
+        }
     }
 }
