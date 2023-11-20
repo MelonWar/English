@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Neurones : MonoBehaviour
 {
+    [SerializeField] GameObject output;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +16,9 @@ public class Neurones : MonoBehaviour
     {
         
     }
+    public void OnTriggerEnter(Collider other)
+    {
+        
+    }
+
 }
