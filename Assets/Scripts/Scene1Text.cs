@@ -1,6 +1,7 @@
 using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,18 +10,26 @@ public class Scene1Text : MonoBehaviour
 {
     [SerializeField] Canvas canvas;
     TextMeshProUGUI text;
+    [SerializeField] List<Button> buttonList;
     List<string> texts = new List<string>();
     IEnumerator coroutine;
+    [SerializeField] PauseMenu menuPause;
     // Start is called before the first frame update
     void Start()
     {
+        foreach (var button in buttonList)
+        {
+            button.enabled = false;
+            button.interactable = false;
+            button.gameObject.SetActive(false);
+        }
         text = canvas.GetComponentInChildren<TextMeshProUGUI>();
         canvas.enabled = false;
         texts.Add("Le sujet de l’intelligence artificielle est sur toutes les lèvres durant ces derniers mois. Cette nouvelle technologie révolutionnaire a le potentiel de changer la face du monde, pour le meilleur et pour le pire. Mais que savez-vous réellement sur l’intelligence artificielle? Ces algorithmes sont si complexes que même leurs développeurs les considèrent parfois comme des «boîtes noires» dont il est impossible de comprendre le fonctionnement réel et, par conséquent, dont il est impossible de prévoir l’évolution. C’est pour cette raison que plusieurs experts dans le domaine ont signé une lettre ouverte demandant l’arrêt du développement de la technologie pour 6 mois, le temps de s’assurer de la sécurité de ces machines. Plusieurs questions troublantes y sont posées telles que : «Devrions-nous développer des esprits non-humains qui pourraient éventuellement nous surpasser en nombre et en intelligence, nous rendre inutiles et nous remplacer?");
         texts.Add("Bien sûr, il est impossible d’arrêter le progrès. Cependant, le but de cette lettre était d’ouvrir la discussion sur les risques relatifs à l’intelligence artificielle et les enjeux éthiques liés à cette technologie. Par contre, il est difficile pour un profane de suivre le débat sans les connaissances techniques requises pour comprendre les subtilités de ces machines. C’est pourquoi nous avons décidé de créer un jeu dans lequel vous pourrez découvrir par vous-même différents aspects de l’intelligence artificielle ainsi que plusieurs enjeux éthiques importants qui y sont liés. À la fin de cette aventure, vous serez en mesure de participer à la discussion importante concernant le futur de cette technologie qui nous affectera tous. Alors, êtes-vous prêt à vous lancer au cœur de ce monde tout aussi merveilleux qu’effrayant?\r\n");
         texts.Add("Artificial intelligence has been a hot topic these last few months. This new groundbreaking technology  has the potential to change the world for better or for worse. But, what do you really know about artificial intelligence? These algorithms are so complex that even the developers making that technology consider them like “black boxes” that are incomprehensible, thus having an unpredictable outcome. It's for this reason that a lot of experts in the domain signed an open letter asking to cease the development of that technology for six months, in order to assure the security of these machines. A lot of troubling questions are asked in the letter like : “Should we develop nonhuman minds that might eventually outnumber, outsmart, obsolete and replace us?”");
         texts.Add("Of course, progress is unstoppable. However, this letter’s purpose was to open a conversation over the risks related to artificial intelligence and the ethical issues linked to this technology. On the other hand, it is difficult for the uninitiated to follow the debate without the required technical knowledge to grasp the intricacy of these machines. That is the main reason why we decided to create a game in which you can discover by yourself different aspects of artificial intelligence as well as several important ethical issues related to it. By the end of this adventure, you will be able to participate in more important discussions regarding this technology’s future, a technology that will affect us all. So, are you ready to dive into this wonderfully frightening world?\r\n");
-        texts.Add("Artificial intelligence or AI, as it is often called, is a term widely used and for a variety of computer programs. But not all computer programs are “intelligent”. When we refer to AI, we usually refer to an algorithm that is able to make decisions based on a series of inputs. Here is a definition by IBM : “At its simplest form, artificial intelligence is a field, which combines computer science and robust datasets, to enable problem-solving.”[3] Artificial intelligence softwares are designed to think and act like humans or, ideally, think and act rationally.\r\n");
+        texts.Add("<u><b>Artificial intelligence</b></u> or AI, as it is often called, is a term widely used and for a variety of computer <u><b>programs</u></b>. But not all computer programs are “intelligent”. When we refer to AI, we usually refer to an <u><b>algorithm</u></b> that is able to make decisions based on a series of <u><b>inputs</u></b>. Here is a definition by IBM : “At its simplest form, artificial intelligence is a field, which combines computer science and robust datasets, to enable problem-solving.”[3] Artificial intelligence softwares are designed to think and act like humans or, ideally, think and act rationally.\r\n");
         texts.Add("There are different types of such algorithms. Most of them are machine learning algorithms. We use the term “learning”, because these algorithms are optimized over a great number of iterations through a data set. To be more technical, “they consist of three parts: a decision process, an error function and a model optimization process.”[5] Machine learning algorithms can be linear regression models, logistic regression or decision trees, which are all types of algorithms that can be described as big mathematical functions.\r\n");
         texts.Add("Another type of machine learning algorithm is artificial neural networks. Another term to describe them is deep learning algorithms. These models try to mimic the human brain, which is composed of billions of neurons that are linked in a certain way that allows intelligence to emerge.\r\n");
         texts.Add("It is important to understand that most problems do not require complex neural networks to be solved. But for some problems, it is impossible to “hard code” all the possibilities to ensure that the program always works. For example, imagine we wanted to make a program which tells if a certain image contains a cat. We could try to make the program analyze certain characteristics of cats like does it have four legs, two ears, fur, etc. But if we code a program with these exact instructions, it would say that the image contains a cat if we present an image of a dog, because a dog also has the same characteristics.\r\n");
@@ -52,12 +61,47 @@ public class Scene1Text : MonoBehaviour
         StopAllCoroutines();
         canvas.enabled = true;
         text.text = "";
+        foreach (var button in buttonList)
+        {
+            button.enabled = false;
+            button.interactable = false;
+            button.gameObject.SetActive(false);
+        }
+        switch (index)
+        {
+            case 4:
+                buttonList.ElementAt(0).enabled = true;
+                buttonList.ElementAt(0).interactable = true;
+                buttonList.ElementAt(0).gameObject.SetActive(true);
+                buttonList.ElementAt(0).GetComponentInChildren<Text>().text = "Check \"Artificial Intelligence\" in Glossary";
+                buttonList.ElementAt(0).onClick.AddListener(menuPause.OpenPage1);
+                buttonList.ElementAt(1).enabled = true;
+                buttonList.ElementAt(1).interactable = true;
+                buttonList.ElementAt(1).gameObject.SetActive(true);
+                buttonList.ElementAt(1).GetComponentInChildren<Text>().text = "Check \"Programs\" in Glossary";
+                buttonList.ElementAt(1).onClick.AddListener(menuPause.OpenPage4);
+                buttonList.ElementAt(2).enabled = true;
+                buttonList.ElementAt(2).interactable = true;
+                buttonList.ElementAt(2).gameObject.SetActive(true);
+                buttonList.ElementAt(2).GetComponentInChildren<Text>().text = "Check \"Algorythm\" in Glossary";
+                buttonList.ElementAt(2).onClick.AddListener(menuPause.OpenPage1);
+                buttonList.ElementAt(3).enabled = true;
+                buttonList.ElementAt(3).interactable = true;
+                buttonList.ElementAt(3).gameObject.SetActive(true);
+                buttonList.ElementAt(3).GetComponentInChildren<Text>().text = "Check \"Inputs\" in Glossary";
+                buttonList.ElementAt(3).onClick.AddListener(menuPause.OpenPage4);
+                break;
+
+            default:
+                break;
+        }
         coroutine = WriteText(index);
         StartCoroutine(coroutine);
     }
 
     IEnumerator WriteText(int index)
     {
+        
         foreach (char c in texts[index])
         {
             text.text += c;

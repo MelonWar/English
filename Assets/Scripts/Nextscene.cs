@@ -5,9 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class Nextscene : MonoBehaviour
 {
+    public Animator transition;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        StartCoroutine(nameof(LoadLevel));
     }
 
+    IEnumerator LoadLevel()
+    {
+        transition.SetTrigger("SceneChange");
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }

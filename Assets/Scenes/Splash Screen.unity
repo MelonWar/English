@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 2312299}
   - component: {fileID: 2312302}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Fade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,7 +172,7 @@ Animator:
   m_GameObject: {fileID: 2312297}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cc6913146f4872b4c897d66d154aa0eb, type: 2}
+  m_Controller: {fileID: 9100000, guid: a8ecebb3feed35a4a8ec39d3f45015b6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
