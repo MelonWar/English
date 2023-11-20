@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class Character : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class Character : MonoBehaviour
     [SerializeField] Transform groundCheck;
     [SerializeField] AudioClip move;
     [SerializeField] LayerMask groundLayerMask;
+    [SerializeField] Canvas canvas;
 
     Rigidbody2D rb;
     BoxCollider2D coll;
@@ -89,5 +91,13 @@ public class Character : MonoBehaviour
         Vector3 scale = transform.localScale;
         scale.x *= -1;
         transform.localScale = scale;
+        if(canvas != null) 
+        { 
+            scale = canvas.transform.localScale;
+            scale.x *= -1;
+            canvas.transform.localScale = scale;
+        }
     }
+
+
 }

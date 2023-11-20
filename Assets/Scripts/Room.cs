@@ -14,6 +14,7 @@ public class Room : MonoBehaviour
     void Start()
     {
         door = GetComponentInChildren<Door>();
+
         source = GetComponent<AudioSource>();
     }
     private void Update()
@@ -24,6 +25,7 @@ public class Room : MonoBehaviour
 
     private void WelcomeInRoom()
     {
+        if (source != null)
         source.PlayDelayed(2);
     }
 
