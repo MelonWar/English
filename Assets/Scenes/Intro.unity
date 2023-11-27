@@ -266,6 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684a295e6d5789a4aa5c4b3f35e58731, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  virtualCam: {fileID: 0}
 --- !u!4 &701946786
 Transform:
   m_ObjectHideFlags: 0
@@ -500,8 +501,8 @@ MonoBehaviour:
     affectera tous. Alors, \xEAtes-vous pr\xEAt \xE0 vous lancer au c\u0153ur de
     ce monde tout aussi merveilleux qu\u2019effrayant?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2fb5fd482ee68fb45b7c3ed78f9df875, type: 2}
+  m_sharedMaterial: {fileID: 3927724457898275924, guid: 2fb5fd482ee68fb45b7c3ed78f9df875, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -900,8 +901,8 @@ MonoBehaviour:
     discussions regarding this technology\u2019s future, a technology that will affect
     us all. So, are you ready to dive into this wonderfully frightening world?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2fb5fd482ee68fb45b7c3ed78f9df875, type: 2}
+  m_sharedMaterial: {fileID: 3927724457898275924, guid: 2fb5fd482ee68fb45b7c3ed78f9df875, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

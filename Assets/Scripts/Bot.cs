@@ -18,6 +18,7 @@ public class Bot : MonoBehaviour
     [SerializeField] GameObject door;
 
     [SerializeField] GameObject GameManager;
+    [SerializeField] GameObject Room;
     PauseMenu PauseMenu;
 
     bool audioPlaying = false;
@@ -84,7 +85,7 @@ public class Bot : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && !other.isTrigger)
+        if (other.CompareTag("Player") && !other.isTrigger && !Room.GetComponent<AudioSource>().isPlaying)
             canInteract = true;
     }
 

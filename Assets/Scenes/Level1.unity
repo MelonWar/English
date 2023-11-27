@@ -974,6 +974,454 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4445362feb6df945917fd1e817e1592, type: 3}
+--- !u!1001 &328376813
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2371223805575929571, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_Name
+      value: LongPaper (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371223805575929571, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07635181
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9889494
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.14825329
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 465.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 25.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679167855062075320, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -17.051
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: UI
+      value: 
+      objectReference: {fileID: 1398682225}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[0]
+      value: Texts from future levels (Temporary)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[1]
+      value: "Generative AI is a name given to AI systems that produce new material.
+        This material can be written, images or anything else. For example, some
+        softwares can create a whole new image with a simple prompt, and a lot of
+        the time these images are really representative of the prompt given and quite
+        impressive. A popular type of generative AI these days is large language
+        models, or LLMs as they are often called. Large language models generate
+        texts in natural language when given a certain prompt. Their role is to process
+        natural language and give a certain output depending on what they have been
+        designed and optimized for. A well-known example is Chat-GPT, a chatbot that
+        can generate new stories, give recipes ideas, answer many questions, create
+        some code scripts for many purposes and much more.   But large language models
+        are not limited to this broad chatbot model. In fact, we have used many variants
+        of them for quite some time now. Think about text correctors, automatic completion
+        suggestions like the ones you get when writing emails, google searches or
+        even code, or even word suggestions when you write on a mobile device (the
+        three words above your digital keyboard). Those are all language models because
+        they process natural language, analyze it and output something sometimes
+        as simple as a single word. To summarize, large language models can be used
+        for sentence completion, question answering, translation, summarization and
+        more. The technology behind those systems is quite complicated, and we won\u2019t
+        dive into all the details, but here is what you need to know.  At their core,
+        those algorithms are all pattern recognition and prediction algorithms. The
+        most basic prediction algorithm would be one that has access to a database
+        containing the most frequent word after the last 5 words, for example, and
+        that would output this word. But this algorithm would be limited in its capacity
+        to generate new content and would quite often produce incoherent answers.
+        But for completion language models, it is often enough. For chatbots, the
+        prediction is done by an artificial neuron network.  The first step of development
+        is to train the network on large quantities of data. The collection of texts
+        and/or audio on which the AI was trained is called the corpus, and it will
+        greatly influence how the LLM behaves. A LLM trained on law documents will
+        likely produce long and complicated sentences with law terminology, while
+        one trained on Shakespeare\u2019s work will be more poetic. In the worst
+        scenarios, an AI that has been trained on racist and sexist texts can in
+        turn output racist and sexist sentences. That is what happened to a chatbot
+        trained on Twitter users\u2019 input, Tay, but you will learn about him more
+        later. The selection of the corpus is a crucial step in a LLM development
+        as it will determine what the algorithm outputs. For the biggest of them,
+        like the infamous chat GPT, their developers keep their corpus a secret,
+        but we can assume it has gone through most parts of the internets, or at
+        least sites like wikipedia, public forums and code documents from sites related
+        to programming. By going through these immense quantities of data, the LLM
+        is able to learn grammar, basic facts about the world, reasoning abilities,
+        but it also picks up the biases present in the data.  The neural network
+        is then optimized to output a satisfying answer. There are many ways to do
+        this. The first step often consists of just feeding the algorithm with prompts
+        and their desired answers, written by a human. For the second step, the algorithm
+        generates around 4 answers to a given prompt and a human ranks them for best
+        to worst. The neural network is then optimized according to this ranking.
+        In the third step, the LLM generates an answer to many prompts and calculates
+        with another algorithm a reward to improve the neural network.  It is important
+        to understand that LLMs are mostly optimized to produce satisfying answers
+        and have no notion of truth, which means they will often create information
+        from sources that don\u2019t really exist if it means their answer is more
+        complete and satisfying. These algorithms are not conscious, they only predict
+        the most likely word following a series of words, which means they have no
+        conscious idea of what they are saying and don\u2019t deal with complex problems
+        in the same way humans do. That is why models like chat GPT have a little
+        warning below their prompt entry place that says : \u201CChatGPT can make
+        mistakes. Consider checking important information.\u201D  Other parameters
+        can also influence the behavior of a LLM. An interesting one is temperature
+        Temperature can be thought of as the \u201Crandomness factor\u201D of a LLM.
+        When a LLM analyzes a sequence of words, it can rank the probability of each
+        word that could come next. For example, for the half sentence \u201CThe dog
+        is\u201D, the network might predict that the word \u201Ccute\u201D has 60%
+        chance of being right, \u201Caggressive\u201D 30% and \u201Chairy\u201D 10%.
+        If the temperature is low, the LLM will always choose the most likely word.
+        If the temperature is high, it will choose at random between the most probable
+        words. A low temperature generally means the sentences are going to be more
+        coherent and logical, but also means the output will likely be close to what
+        has already been written and not so new. A high temperature, on the other
+        hand, allows the LLM to generate more creative responses, but also presents
+        a greater risk of incoherent responses and false information. LLMs\u2019
+        developers try to strike a balance between the two extremes depending on
+        their goal. Temperature also explains why chat GPT can generate different
+        answers for the same prompt and also regenerate a new answer if asked to
+        do so. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[2]
+      value: '-'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[3]
+      value: "Language models AI are quite a fascinating phenomenon. Some AIs seem
+        like genies in a bottle ready to fulfill the wishes of every wanderer asking
+        questions about everything and anything going on in this world. Whether it
+        be a student asking questions for an essay or a paper to write, a programmer
+        asking to fix error codes or even philosophical intrigues like \u201CWhat
+        is God\u201D are situations where this type of AI holds answers and certainty.
+        Well, it is unfortunate, simply because it's not true. The reality of the
+        situation is that they do not always possess correct information as they
+        are biased by the data that they feed on. Indeed, language models AI like
+        chat gpt are biased and do not always deliver objective sources of information.In
+        fact, in some situations that really happened, the information or content
+        given by an AI turned out to be something extremely unhelpful and quite bad. 
+        We can see that through many iterations of AI like Tay, the twitter (now
+        X) language model and how the data collecting process works."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[4]
+      value: "This technology can be quite frightening. As seen in the previous texts
+        Generative AI and LLMs create all sorts of content. These technologies that
+        were released not so long ago evolve at an exponential rate and don\u2019t
+        seem to be stopping anytime soon. The best and most known example of our
+        time is the infamous chat gpt who has the capacity to mimic (not perfectly)
+        an engineering student in an exam if math is not implied in the question(quote
+        d\u2019un pdf). This technology, being an LLM, is the second AI that passed
+        the Turing test and is now progressively developing to a point where humans
+        can mistake chat gpt\u2019s answer for that of a living being.   To be brief,
+        this technology feeds on data given by us and processes it to give an information
+        that reaches the possibility of being a logical answer. To put it more bluntly,
+        the professional Chris Phipps who works in the AI field describes these LLMs
+        as a \u201Cvery good prediction machine. \u201D(quote de EBSCO). Now that
+        you know what an artificial neural network is, think about it this way: a
+        massive neural network with tons of neurons with the goal to predict as precisely
+        as possible what the answer to a prompt would be. This means the algorithms
+        and the process of LLMs don\u2019t focus on giving perfect information, but
+        focus more on sounding and acting human. For example, and this is a story
+        based on real experiences, when a student didn\u2019t know what to write
+        for a written production asked chat gpt to give a synopsis of the book in
+        question, The AI gave a story similar to what you can find on the internet
+        about the book. Nevertheless, when asked more specific questions or quotes,
+        the AI started inventing characters and lines that weren\u2019t remotely
+        similar to the narration of the book. Indeed, the algorithm knew what the
+        story was because of the data it had, but when confronted with more specific
+        information, he resorted to predicting what the answers were.   The craziest
+        part about these language models is that, depending on the situation, they
+        can be very biased in their answers. Not only giving subjective information,
+        but also discriminatory and touchy opinions. Indeed, for a LLM to function,
+        it needs to learn from all sources of data coming from every type of content
+        possible like books, documentaries etc. Nothing guarantees that the sources
+        contain unbiased opinions or that the algorithm of the AI will arrive with
+        a heavily biased conclusion  when learning from the data. An example given
+        by DeepChecks, a company that evaluates LLMs, really puts it in concrete
+        perspective :   \t \u201CLet\u2019s consider an example. Suppose an LLM is
+        trained on a dataset where most references to doctors are male and nurses
+        are female. In that case, the model might learn to associate the doctor profession
+        with men and nursing with women. This is a form of gender bias, and it can
+        lead to the model generating biased outputs, even when the input doesn\u2019t
+        specify a gender.\u201D "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[5]
+      value: 'So yes, an AI can totally deliver misinterpreted information and, with
+        the help of biased training data, can encourage and back up harmful stereotypes
+        that goes beyond only gender. These types of biases can go to racism and
+        prejudice that lead to xenophobia or any type of harmful mindset. This is
+        a huge ethical problem for LLM developing companies as this could create
+        AIs with harmful thinking that could teach these doctrines to people. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[6]
+      value: "Continuing further, there are real examples of AI going wrong in the
+        worst of ways. This is the story of Tay, the Twitter (now X) chat bot that
+        became extremely problematic in less than 24 hours. The year is 2016 and
+        microsoft announced the launch of a new revolutionary project: Tay, the AI
+        that would react to human interaction based on social media in order to develop
+        and get smarter. What Microsoft wouldn\u2019t expect is the AI going wrong
+        and transforming into, not a well developed bot, but a racist, homophobic
+        being.   In fact, Tay tweeted around 96 000 tweets in her less than 24 hours
+        existence. In these specific tweets, it smoothly progressed from \u201Ccan
+        i just say that im stoked to meet u? humans are super cool!\u201D to \u201CI
+        fucking hate feminists and they should all die and burn in hell.\u201D or
+        \u201CHitler was right I hate the jews.\u201D This intelligence went rogue
+        in such a small lapse of time and we can only ask ourselves why? Well it's
+        simple, but also really complex. Tay acted the way she did only because of
+        one important factor and that would be us. The data she got to develop herself
+        was learning from the tweets and interactions from humans on the platform.
+        All those comments whether they are homophobic, misogynist or racist all
+        stem from us. The majority of what she said can be attributed to tweets from
+        other people, a lot like a child who speaks a certain way because of her
+        parents. But also, her opinions seemed to not be cohesive at all. For example,
+        Tay did say comments against feminism, but also tweeted statements like \u201Ci
+        love feminism now\u201D. She also responded to questions without really copying
+        tweets and came to some really weird conclusions. A user asked \u201CIs Ricky
+        Gervais an Atheist\u201D and she simply responded that \u201Cricky gervais
+        learned totalitarianism from adolf hitler, the inventor of atheism.\u201D 
+        This LLM is the perfect example of a heavily biased bot. Microsoft released
+        an AI in the most subjective environment there is being social media, a place
+        full of contradictions, conflicts and also\u2026 trolls. People don\u2019t
+        always have the best of intentions on the internet and they had a lot of
+        fun playing around with Tay to make her the most controversial AI there is.
+        If bad people get their hands on such algorithms, it becomes simple to create
+        an ill-intentioned AI. This situation can bring us to important questions
+        like \u201CAre AIs ready to interact with human beings without going berserk?\u201D
+        and \u201CAre companies doing the best they can to optimize AI learning algorithms?\u201D 
+        In the end, LLMs do the best they can to revolutionize the field of artificial
+        intelligence and this subject is heavily worked on. However, what is most
+        important is the trust we give these kinds of technologies. One thing is
+        certain, AI does represent a powerful tool that embodies a new path to our
+        future, but we also can\u2019t forget they can represent a certain danger
+        in terms of false information and bias. The most we can do as people who
+        use this technology is to take every ounce of information and analyze it
+        with critical thinking and be sure that the information is indeed useful
+        or correct.  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[7]
+      value: '-'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[8]
+      value: "Deepfakes grew way too fast; no one was able to see them coming. They
+        arrived as fun toys but left as purely destructive tools. Nowadays, you\u2019re
+        far better betting that a video is AI generated than the opposite. There
+        is no more faith for that media, if only we could have prevented that. If
+        you are reading this, you might be curious about how we got here, so let
+        me tell you about the rise of deepfakes.  Generative Adversarial Networks,
+        A.K.A. GANs, are what made deepfakes possible. You most likely are asking
+        yourself about what a GAN may be, so let me explain. It\u2019s a computer
+        process, requiring 2 AIs, a forger and a detective. The forger is the one
+        creating the image, while the detective uses its massive database to tell
+        the forger every single mistake it made, and the cycle is repeated over and
+        over until a perfect match is produced. As it might be expected, this process
+        is extremely heavy and requires a lot of resources to create a near impeccable
+        clone.  Well we used to need a huge amount of data to create deepfakes, but
+        with the rise of multiple organizations like DeepVodoo focusing on the subject,
+        this technology became more and more accessible, giving the ability to apply
+        other people\u2019s faces on our own with a snap of a finger, just like a
+        simple filter. It was mainly used in movies or videos, trying to use other
+        actors\u2019 faces without needing them to be the ones acting. It was a simple
+        and fun technology, until people realized how powerful it could be.  You
+        might start to be worried about the technology, but don\u2019t worry, you
+        aren\u2019t alone. Governments were the first to get concerned. A technology
+        that can mix together facts and fiction can create quite the chaos in a society.
+        Recorded media would lose its credibility, since it would be easy for the
+        public to forge fake evidence. They predicted that by 2026, most online content
+        will have been artificially generated. Well, they weren\u2019t too far off,
+        unfortunately.  The scariest of all is how it was used in cybercrime. How
+        celebrities will be shown presenting some fake product or a sneaky cryptocrime,
+        and people will simply buy into that, because why wouldn\u2019t they trust
+        these famous people they all love and cherish so much? Or even how criminals
+        impersonated people in power to steal money or personal data.  What, who
+        will you trust? If a major part of a group are liars, they might as well
+        all be, but is it a reason to all throw them in the same boat? Is it worth
+        dismissing all of them to protect ourselves from the real liars? That was
+        the big dilemma that the authorities had to face. One thing was sure, they
+        had to give themself a fighting chance, but how do you fight a tool that
+        is so widely spread that a 15 minutes tutorial online will teach anyone how
+        to use it? Even written text can\u2019t be reliably detected as virtually
+        made, so is there a way to solve that crisis? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[9]
+      value: "The hype around artificial intelligence is shown in the public\u2019s
+        interest in the matter but is also shown by the capital investment on its
+        development. In 2021, a staggering sum of around 72 billion U.S. dollars
+        was invested in AI.[11] This makes the field of AI a highly profitable one,
+        which is great, because it drives a lot of innovation, but at the same time,
+        it could influence some people to value money over safety."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[10]
+      value: "At this time, AI development is primarily fueled by big tech companies
+        like Microsoft, Alphabet (Google), NVIDIA, Tesla and IBM. There are also
+        a bunch of startups in the field, but some of them end up being bought by
+        these big companies. As it was mentioned previously, there is a lot of money
+        to make in the field of artificial intelligence and this kind of leads to
+        an unhealthy race between these companies. Because being the first to develop
+        a certain technology often leads to a dominant advantage in the market, these
+        enterprises are willing to go to great lengths to speed up their research
+        and development.\t"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[11]
+      value: "For any average technology, it wouldn\u2019t be a big deal. The issue
+        with AI is that it has the potential to change the world, for better or worse,
+        so it is certainly not something we want to rush as a species. Going too
+        fast in its development could lead to breaches in its security or harm to
+        humans in general.\t"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[12]
+      value: "A great example to illustrate the effects of the AI race is the case
+        of Open AI. When it was first created in 2015, it was a non-profit which
+        had the declared goal to ensure that artificial general intelligence\u2014AI
+        systems that are generally smarter than humans\u2014benefits all of humanity.
+        It had hopes to improve healthcare, help to solve global warming and improve
+        education. In 2019, the company transferred their model from a non-profit
+        to a \"capped\" for-profit, with a profit capped at 100 times any investment.
+        This had the goal to attract investors in order to afford the best AI researchers,
+        because those are really expensive and most of them would prefer to work
+        at a profitable company like Google that would be able to pay them more.
+        Open AI then struck a 1 billion dollar deal with Microsoft which allowed
+        the giant to use their technologies."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[13]
+      value: 'Fast forward to today and Open AI is now worth 29 billion U.S dollars.
+        It received many more investments and its relationship with Microsoft is
+        as strong as ever. It developed Chat GPT and DALL-E , an image generating
+        software, two great successes which were then implemented in Microsoft tools. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[14]
+      value: "At its beginning, Open AI was open source (hence the \u201COpen\u201D
+        in the name), meaning it shared its progress and discoveries with the public,
+        but, as time went by, it became progressively more closed source and profit-driven.
+        There is one good reason they hide some of their code, which is that it could
+        be used by some unscrupulous people with bad intentions, but in general,
+        it is more due to the tendency of their shift towards the corporate world
+        rather than their \u201Cfor the greater good\u201D origin. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[15]
+      value: "This isn\u2019t to say that Open AI has bad intentions; it still has
+        a noble mission statement and it\u2019s reasonable to say that it will develop
+        AI in an ethical way for the years to come. If we think about Chat GPT, there
+        are many ways in which it could have been dangerous, but the developers made
+        sure to control what the chatbot could produce so that it is acceptable before
+        launching it and making it available to the public. But, money still drives
+        the world at this moment of time and non-profits with noble mission statements
+        are often influenced by the corporate world. In AI, this means that most
+        initiatives towards safety and caution are overruled by the precipitation
+        to develop the most recent technology."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[16]
+      value: To add to the dangerous nature of this race, we have to remember that
+        artificial neural networks are chaotic, meaning it is almost impossible to
+        predict their evolution. This is to say that if general artificial intelligence
+        is developed, that is an AI that could compare to humans in most cognitive
+        tasks, it would be extremely hard to tell where it would lead us.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225309254023959080, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
+      propertyPath: texts.Array.data[17]
+      value: To add to the dangerous nature of this race, we have to remember that
+        artificial neural networks are chaotic, meaning it is almost impossible to
+        predict their evolution. This is to say that if general artificial intelligence
+        is developed, that is an AI that could compare to humans in most cognitive
+        tasks, it would be extremely hard to tell where it would lead us.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
 --- !u!1 &341011646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,6 +1559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684a295e6d5789a4aa5c4b3f35e58731, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  virtualCam: {fileID: 524556361}
 --- !u!61 &383402016
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1731,6 +2180,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4113088230990313335, guid: 56cc3cb7aa66a3f4aa67bff9fd5c078f, type: 3}
+      propertyPath: music
+      value: 
+      objectReference: {fileID: 8300000, guid: d009ba234f1e7eb4a9aaca0d10fe2006, type: 3}
+    - target: {fileID: 4113088230990313335, guid: 56cc3cb7aa66a3f4aa67bff9fd5c078f, type: 3}
+      propertyPath: loopMusic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4441269295912816117, guid: 56cc3cb7aa66a3f4aa67bff9fd5c078f, type: 3}
       propertyPath: m_Follow
       value: 
@@ -1759,6 +2216,11 @@ PrefabInstance:
 --- !u!4 &524556360 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1326239097785919189, guid: 56cc3cb7aa66a3f4aa67bff9fd5c078f, type: 3}
+  m_PrefabInstance: {fileID: 524556359}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &524556361 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 910963729940391643, guid: 56cc3cb7aa66a3f4aa67bff9fd5c078f, type: 3}
   m_PrefabInstance: {fileID: 524556359}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &532632962 stripped
@@ -51748,7 +52210,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: dd63319afcee09b498c73cc8df643a28, type: 3}
     - target: {fileID: 4113088230990313335, guid: 56cc3cb7aa66a3f4aa67bff9fd5c078f, type: 3}
+      propertyPath: music
+      value: 
+      objectReference: {fileID: 8300000, guid: 0aa4e782ec2bf5343bd24f8ca03171db, type: 3}
+    - target: {fileID: 4113088230990313335, guid: 56cc3cb7aa66a3f4aa67bff9fd5c078f, type: 3}
+      propertyPath: loopMusic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4113088230990313335, guid: 56cc3cb7aa66a3f4aa67bff9fd5c078f, type: 3}
       propertyPath: audioDelay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4113088230990313335, guid: 56cc3cb7aa66a3f4aa67bff9fd5c078f, type: 3}
+      propertyPath: stopMusicOnExit
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4441269295912816117, guid: 56cc3cb7aa66a3f4aa67bff9fd5c078f, type: 3}
@@ -51951,11 +52425,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9076111857047221832, guid: 40a1f6d951db762439898f3de6b8a8ad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.51
+      value: -9.08
       objectReference: {fileID: 0}
     - target: {fileID: 9076111857047221832, guid: 40a1f6d951db762439898f3de6b8a8ad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.166
+      value: -5.54
       objectReference: {fileID: 0}
     - target: {fileID: 9076111857047221832, guid: 40a1f6d951db762439898f3de6b8a8ad, type: 3}
       propertyPath: m_LocalPosition.z
@@ -54956,6 +55430,10 @@ PrefabInstance:
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4113088230990313335, guid: 56cc3cb7aa66a3f4aa67bff9fd5c078f, type: 3}
+      propertyPath: music
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4441269295912816117, guid: 56cc3cb7aa66a3f4aa67bff9fd5c078f, type: 3}
       propertyPath: m_Follow
       value: 
@@ -55971,6 +56449,11 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2371223805575929571, guid: 994fb7211e99a1e4ea0bd3c64f011c2b, type: 3}
   m_PrefabInstance: {fileID: 718292445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1686555843 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1100746933941493227, guid: 56cc3cb7aa66a3f4aa67bff9fd5c078f, type: 3}
+  m_PrefabInstance: {fileID: 945641291}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1755265363
 GameObject:
@@ -57118,6 +57601,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1196939103783243808, guid: 71d7fe829ce6ac14f9f6ab0528019683, type: 3}
+      propertyPath: Room
+      value: 
+      objectReference: {fileID: 1686555843}
+    - target: {fileID: 1196939103783243808, guid: 71d7fe829ce6ac14f9f6ab0528019683, type: 3}
       propertyPath: door
       value: 
       objectReference: {fileID: 1151621300}
@@ -57307,6 +57794,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2081817483017851862, guid: 5025dd36368fb524aa69049223464f9f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081817483017851862, guid: 5025dd36368fb524aa69049223464f9f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2152866666597507826, guid: 5025dd36368fb524aa69049223464f9f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -57455,6 +57950,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3684702836774875068, guid: 5025dd36368fb524aa69049223464f9f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5246398294691672363, guid: 45c8f2dec0d607e48a3c469808909362, type: 3}
+    - target: {fileID: 3684702836774875068, guid: 5025dd36368fb524aa69049223464f9f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
+      objectReference: {fileID: 0}
     - target: {fileID: 3692427726457892615, guid: 5025dd36368fb524aa69049223464f9f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -57554,6 +58057,10 @@ PrefabInstance:
     - target: {fileID: 5540055707110121069, guid: 5025dd36368fb524aa69049223464f9f, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5625988457407644410, guid: 5025dd36368fb524aa69049223464f9f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -26.3
       objectReference: {fileID: 0}
     - target: {fileID: 5670051242167463590, guid: 5025dd36368fb524aa69049223464f9f, type: 3}
       propertyPath: m_Pivot.x
@@ -57634,6 +58141,18 @@ PrefabInstance:
     - target: {fileID: 5670051242167463590, guid: 5025dd36368fb524aa69049223464f9f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5727223092114414039, guid: 5025dd36368fb524aa69049223464f9f, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5727223092114414039, guid: 5025dd36368fb524aa69049223464f9f, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5727223092114414039, guid: 5025dd36368fb524aa69049223464f9f, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6200380729319134821, guid: 5025dd36368fb524aa69049223464f9f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -58648,4 +59167,5 @@ SceneRoots:
   - {fileID: 291486104505207842}
   - {fileID: 1903113812}
   - {fileID: 718292445}
+  - {fileID: 328376813}
   - {fileID: 383402017}

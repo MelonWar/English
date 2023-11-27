@@ -66,6 +66,8 @@ public class LongPaper : MonoBehaviour
     void RemoveText()
     {
         isReading = false;
+        foreach (TMP_Text uitext in UITexts)
+            uitext.text = "";
         if(UI != null)
             UI.SetActive(false);
     }

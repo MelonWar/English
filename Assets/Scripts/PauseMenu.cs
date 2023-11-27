@@ -40,6 +40,10 @@ public class PauseMenu : MonoBehaviour
                 PauseGame();
         }
     }
+    public void Quit()
+    {
+        Application.Quit();
+    }
 
     public void OpenGlossary()
     {
@@ -75,7 +79,12 @@ public class PauseMenu : MonoBehaviour
         GetRoom().UnPauseAudio();
         animator.SetTrigger("Resume");
         pauseMenu.SetActive(false);
-        glossary.SetActive(false);
+        if(glossary.activeSelf)
+            glossary.SetActive(false);
+
+        foreach (TMP_Text def in glossaryDefs)
+            def.text = "";
+
         paused = false;
         Time.timeScale = 1;
     }

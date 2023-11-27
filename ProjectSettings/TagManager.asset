@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - VirtualCam
   - Scroll
+  - MusicManager
   layers:
   - Default
   - TransparentFX

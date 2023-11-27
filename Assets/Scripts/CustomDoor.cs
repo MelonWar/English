@@ -7,6 +7,8 @@ public class CustomDoor : MonoBehaviour
 {
     bool canInteract = false;
 
+    public GameObject virtualCam;
+
     void Start()
     {
         
@@ -14,7 +16,13 @@ public class CustomDoor : MonoBehaviour
     void Update()
     {
         if (canInteract && Input.GetKeyDown(KeyCode.E))
+        {
+            if(virtualCam != null)
+            {
+                virtualCam.SetActive(false);
+            }
             Transition();
+        }
     }
 
     public void Transition()
